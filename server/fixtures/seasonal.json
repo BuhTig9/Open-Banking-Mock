@@ -1,0 +1,53 @@
+{
+  "accounts": [
+    {
+      "id": "seasonal_acc_1",
+      "name": "Personal Checking",
+      "type": "depository",
+      "balance": 2100.00
+    },
+    {
+      "id": "seasonal_acc_2",
+      "name": "Business Checking",
+      "type": "depository",
+      "balance": 5400.25
+    }
+  ],
+  "transactions": [
+    {
+      "id": "seasonal_txn_1",
+      "account_id": "seasonal_acc_2",
+      "date": "2025-07-01",
+      "name": "Summer Festival Sales",
+      "amount": 3200.00
+    },
+    {
+      "id": "seasonal_txn_2",
+      "account_id": "seasonal_acc_2",
+      "date": "2025-05-10",
+      "name": "Spring Expenses",
+      "amount": -800.50
+    },
+    {
+      "id": "seasonal_txn_3",
+      "account_id": "seasonal_acc_1",
+      "date": "2025-07-12",
+      "name": "Consulting Income",
+      "amount": 1500.00
+    },
+    {
+      "id": "seasonal_txn_4",
+      "account_id": "seasonal_acc_1",
+      "date": "2025-02-15",
+      "name": "Winter Vacation",
+      "amount": -900.00
+    },
+    {
+      "id": "seasonal_txn_5",
+      "account_id": "seasonal_acc_2",
+      "date": "2025-06-20",
+      "name": "Equipment Purchase",
+      "amount": -1200.75
+    }
+  ]
+}

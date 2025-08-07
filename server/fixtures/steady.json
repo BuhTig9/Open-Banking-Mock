@@ -1,0 +1,53 @@
+{
+  "accounts": [
+    {
+      "id": "steady_acc_1",
+      "name": "Checking",
+      "type": "depository",
+      "balance": 3500.50
+    },
+    {
+      "id": "steady_acc_2",
+      "name": "Savings",
+      "type": "depository",
+      "balance": 12000.75
+    }
+  ],
+  "transactions": [
+    {
+      "id": "steady_txn_1",
+      "account_id": "steady_acc_1",
+      "date": "2025-07-15",
+      "name": "Paycheck",
+      "amount": 2500.00
+    },
+    {
+      "id": "steady_txn_2",
+      "account_id": "steady_acc_1",
+      "date": "2025-07-16",
+      "name": "Groceries",
+      "amount": -120.34
+    },
+    {
+      "id": "steady_txn_3",
+      "account_id": "steady_acc_2",
+      "date": "2025-07-05",
+      "name": "Interest",
+      "amount": 5.75
+    },
+    {
+      "id": "steady_txn_4",
+      "account_id": "steady_acc_1",
+      "date": "2025-06-20",
+      "name": "Utility Bill",
+      "amount": -75.00
+    },
+    {
+      "id": "steady_txn_5",
+      "account_id": "steady_acc_2",
+      "date": "2025-06-25",
+      "name": "Transfer to Checking",
+      "amount": -500.00
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "accounts": [
+    {
+      "id": "risky_acc_1",
+      "name": "Everyday Checking",
+      "type": "depository",
+      "balance": -250.00
+    },
+    {
+      "id": "risky_acc_2",
+      "name": "Credit Card",
+      "type": "credit",
+      "balance": -1500.00
+    }
+  ],
+  "transactions": [
+    {
+      "id": "risky_txn_1",
+      "account_id": "risky_acc_1",
+      "date": "2025-07-10",
+      "name": "Overdraft Fee",
+      "amount": -35.00
+    },
+    {
+      "id": "risky_txn_2",
+      "account_id": "risky_acc_2",
+      "date": "2025-07-01",
+      "name": "Cash Advance",
+      "amount": -300.00
+    },
+    {
+      "id": "risky_txn_3",
+      "account_id": "risky_acc_1",
+      "date": "2025-06-15",
+      "name": "Paycheck",
+      "amount": 800.00
+    },
+    {
+      "id": "risky_txn_4",
+      "account_id": "risky_acc_2",
+      "date": "2025-05-20",
+      "name": "Restaurant",
+      "amount": -75.00
+    },
+    {
+      "id": "risky_txn_5",
+      "account_id": "risky_acc_2",
+      "date": "2025-06-25",
+      "name": "Payment Received",
+      "amount": 200.00
+    }
+  ]
+}
